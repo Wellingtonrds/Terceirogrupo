@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "dist",
+    "src/components/3d",
+    "src/components/AvatarCustomizer.tsx",
+    "src/components/CameraPip.tsx",
+    "src/components/CountdownOverlay.tsx",
+    "src/components/CrewLogs.tsx",
+    "src/components/QuantumCore.tsx",
+    "src/components/SavedRecordingsList.tsx",
+    "src/components/StarMap.tsx",
+    "src/components/StudioHeader.tsx",
+    "src/components/SystemDiagnostics.tsx",
+    "src/components/TrackingSettingsPanel.tsx",
+    "src/components/VideoPlaybackModal.tsx",
+    "src/services/faceTracker.ts",
+    "src/services/proceduralTextures.ts",
+    "src/services/videoRecorder.ts",
+    "src/types/vtuber.ts"
+  ]
+}

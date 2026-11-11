@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: EcoSphere AI",
+  "description": "Assistente de Taiga - Central de apresentação interativa com inteligência artificial, onde comandos de voz ou texto ativam os vídeos da Taiga em alta definição.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
